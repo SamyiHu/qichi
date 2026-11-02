@@ -5,3 +5,4 @@ screenshots/*-test.png
 .DS_Store
 node_modules/
 _site/
+screenshots/debug-*
