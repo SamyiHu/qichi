@@ -522,7 +522,7 @@ function applicationSuccessTemplate(application) {
       <div class="success-mark">${I.check}</div>
       <h3>你的申请，我们收到了。</h3>
       <p>谢谢你把真实的一面交给我们。顾问会在两个工作日内与你联系，安排一次不赶时间的面谈。</p>
-      <div class="success-no"><span>APPLICATION NUMBER</span><strong>${application.id}</strong></div>
+      <div class="success-no"><span>APPLICATION NUMBER</span><strong>${escapeHtml(application.id)}</strong></div>
       <p style="font-size:10px">这是一份设计演示申请，资料仅保存在你的浏览器本地。</p>
       <button class="btn btn-outline" type="button" data-reset-application>重新填写 <span class="btn-ico">${I.arrow}</span></button>
     </div>

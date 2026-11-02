@@ -1,4 +1,4 @@
-.tmp-edge-profile*
+.tmp-edge*
 .local/
 tmp-check.mjs
 screenshots/*-test.png
