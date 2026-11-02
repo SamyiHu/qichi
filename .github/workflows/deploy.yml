@@ -27,7 +27,7 @@ jobs:
       - name: Assemble static site
         run: |
           mkdir -p _site
-          cp -R index.html assets .nojekyll _site/
+          cp -R index.html assets .nojekyll robots.txt _site/
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
