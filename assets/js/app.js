@@ -250,7 +250,7 @@ function homeTemplate() {
             <span class="mini">A NOTE FROM QICHI</span>
           </div>
           <figure class="manifesto-image reveal-img">
-            <img src="assets/images/manifesto.jpg" alt="一对伴侣在自然光下相拥" loading="lazy">
+            <img src="assets/images/manifesto.jpg" alt="一对伴侣在自然光下相拥" loading="eager">
             <figcaption><span>Real connection, not performance</span><span>QICHI / 2026</span></figcaption>
           </figure>
         </div>
@@ -319,7 +319,7 @@ function homeTemplate() {
         </div>
         <div class="event-grid">
           <figure class="event-visual reveal-img">
-            <img src="${event.image}" alt="会员围坐在长桌旁共进晚餐" loading="lazy">
+            <img src="${event.image}" alt="会员围坐在长桌旁共进晚餐" loading="eager" fetchpriority="low">
             <span class="event-badge">MEMBERS ONLY · 12 SEATS</span>
             <figcaption class="event-visual-caption"><span>${event.location}</span><span>QICHI SALON NO. 018</span></figcaption>
           </figure>
