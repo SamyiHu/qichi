@@ -1,0 +1,7 @@
+.tmp-edge-profile*
+.local/
+tmp-check.mjs
+screenshots/*-test.png
+.DS_Store
+node_modules/
+_site/

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3efe6">
+  <title>栖迟 QICHI — 认真遇见，缓慢相爱</title>
+  <meta name="description" content="栖迟 QICHI 是一个为认真关系而生的小型婚恋俱乐部。用一次次面对面的交谈，替你把喜欢变成长久。">
+  <meta property="og:title" content="栖迟 QICHI — 认真遇见，缓慢相爱">
+  <meta property="og:description" content="一个为认真关系而生的小型婚恋俱乐部。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/hero-couple.jpg">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/noto-serif-sc-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/manrope.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" as="image" href="assets/images/hero-couple.jpg">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="module" src="assets/js/app.js"></script>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <div class="boot" id="boot" aria-hidden="true">
+    <div class="boot-mark">栖迟</div>
+    <div class="boot-line"><span></span></div>
+    <div class="boot-en">QICHI · PRIVATE MATCHMAKING</div>
+  </div>
+
+  <header class="site-header" id="site-header">
+    <div class="wrap">
+      <a class="brand" href="#/" data-route="home" aria-label="栖迟 QICHI 首页">
+        <span class="brand-mark">栖</span>
+        <span class="brand-text"><span class="brand-cn">栖迟</span><span class="brand-en">QICHI</span></span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <button type="button" data-scroll="philosophy">理念</button>
+        <a href="#/discover" data-route="discover">会员</a>
+        <button type="button" data-scroll="events">活动</button>
+        <a href="#/membership" data-route="membership">会籍</a>
+      </nav>
+      <div class="header-actions">
+        <button class="header-fav" type="button" data-open-favorites aria-label="查看我的收藏">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78Z"/></svg>
+          <span class="fav-count" data-fav-count hidden>0</span>
+        </button>
+        <a href="#/membership" data-route="membership" class="btn btn-primary btn-small">申请加入 <span class="btn-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17 17 7M7 7h10v10"/></svg></span></a>
+        <button class="menu-toggle" type="button" aria-label="打开菜单" aria-expanded="false" data-menu-toggle><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <nav class="mobile-nav" aria-label="移动端导航">
+      <a href="#/" data-route="home">首页 <span>01</span></a>
+      <a href="#/discover" data-route="discover">会员名录 <span>02</span></a>
+      <a href="#/membership" data-route="membership">申请会籍 <span>03</span></a>
+      <button type="button" data-scroll="philosophy">我们的理念 <span>04</span></button>
+      <button type="button" data-scroll="events">近期活动 <span>05</span></button>
+    </nav>
+    <div class="mobile-menu-foot">
+      <span>Shanghai · Beijing · Hangzhou · Chengdu</span>
+      <span>hello@qichi.club</span>
+    </div>
+  </div>
+
+  <main id="view"></main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="brand" href="#/" data-route="home" aria-label="栖迟 QICHI 首页">
+            <span class="brand-mark">栖</span>
+            <span class="brand-text"><span class="brand-cn">栖迟</span><span class="brand-en">QICHI</span></span>
+          </a>
+          <p class="footer-manifesto">在一个很快的世界里，<br>为<em>慢一点的关系</em>留一个位置。</p>
+        </div>
+        <div class="footer-right">
+          <div class="footer-col">
+            <h4>Explore</h4>
+            <a href="#/" data-route="home">首页</a>
+            <a href="#/discover" data-route="discover">会员名录</a>
+            <a href="#/membership" data-route="membership">申请会籍</a>
+            <button type="button" data-open-quiz style="text-align:left">契合度测试</button>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <a href="mailto:hello@qichi.club">hello@qichi.club</a>
+            <a href="tel:+862164008800">+86 21 6400 8800</a>
+            <span>上海 · 徐汇区永嘉路</span>
+            <span>周一至周五 10:00—19:00</span>
+          </div>
+          <div class="newsletter" style="grid-column:1/-1">
+            <h4 style="font-size:8px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:rgba(243,239,230,.4);margin-bottom:16px">A letter, monthly</h4>
+            <p>每月一封关于相遇、关系与城市生活的信。没有算法，只有一些真诚的观察。</p>
+            <form class="newsletter-form" data-newsletter>
+              <input type="email" name="email" placeholder="你的邮箱地址" required aria-label="订阅邮箱">
+              <button type="submit" aria-label="订阅">→</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 QICHI 栖迟 · All rights reserved</span>
+        <span class="demo-note">Design demo · 会员资料与影像仅用于展示</span>
+        <span>Photography via Unsplash</span>
+      </div>
+    </div>
+    <div class="footer-mark" aria-hidden="true">栖迟</div>
+  </footer>
+
+  <div id="modal-root"></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

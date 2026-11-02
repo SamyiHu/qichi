@@ -1,0 +1,428 @@
+// 栖迟 QICHI — demo data
+export const profiles = [
+  {
+    id: "lin-zhixia",
+    no: "014",
+    image: "assets/images/profile-linzhixia.jpg",
+    name: "林之夏",
+    en: "Lin Zhixia",
+    age: 29,
+    city: "上海",
+    hometown: "杭州",
+    job: "建筑设计师",
+    company: "独立建筑事务所",
+    height: 168,
+    education: "同济大学 · 建筑学硕士",
+    gender: "female",
+    intent: "以结婚为前提",
+    tags: ["建筑", "徒步", "胶片摄影", "手冲咖啡"],
+    featured: true,
+    quote: "我想找的不是一个陪我赶路的人，而是一个愿意和我绕点远路的人。",
+    bio: "在事务所做旧建筑改造，喜欢空间里那些被时间留下的痕迹。工作日很忙，但周末会给自己留一段没有安排的时间：去苏州河边走路，或者在家冲一杯不太稳定的咖啡。",
+    ideal: "诚实、有好奇心，对生活有自己的秩序，也愿意为另一个人挪出位置。",
+    weekend: "清晨去菜市场，下午看展，傍晚沿着河散步。",
+    values: ["长期主义", "坦诚", "审美"],
+    since: "2024"
+  },
+  {
+    id: "shen-zhiwei",
+    no: "021",
+    image: "assets/images/profile-shenzhiwei.jpg",
+    name: "沈知微",
+    en: "Shen Zhiwei",
+    age: 31,
+    city: "杭州",
+    hometown: "绍兴",
+    job: "品牌策略顾问",
+    company: "独立品牌工作室",
+    height: 165,
+    education: "中国美术学院 · 视觉传达",
+    gender: "female",
+    intent: "认真恋爱",
+    tags: ["茶", "书法", "旅行", "陶艺"],
+    featured: true,
+    quote: "好的关系应该像一杯茶，第一口不必惊艳，但回甘很长。",
+    bio: "帮小品牌梳理它们真正想说的话，也帮自己保留一些不必解释的安静。学过十年书法，最近在学拉坯，做出来的杯子都有一点歪，但很喜欢。",
+    ideal: "情绪稳定，有自己的热爱，愿意一起把普通日子过出细节。",
+    weekend: "去龙井村喝茶，或者在家写字、听黑胶。",
+    values: ["松弛", "真诚", "留白"],
+    since: "2023"
+  },
+  {
+    id: "zhou-yuan",
+    no: "032",
+    image: "assets/images/profile-zhouyuan.jpg",
+    name: "周予安",
+    en: "Zhou Yuan",
+    age: 27,
+    city: "北京",
+    hometown: "青岛",
+    job: "纪录片剪辑师",
+    company: "独立影像工作室",
+    height: 170,
+    education: "北京电影学院 · 导演系",
+    gender: "female",
+    intent: "认真恋爱",
+    tags: ["电影", "摄影", "骑行", "爵士"],
+    featured: false,
+    quote: "我相信镜头里的停顿，也相信关系里那些不必填满的空白。",
+    bio: "剪纪录片，习惯在别人的生活里寻找节奏。工作之外喜欢骑车穿过城市，车筐里永远放着相机。不太会寒暄，但很会听人说话。",
+    ideal: "对世界有感知力，不必外向，但要愿意分享你的 inner world。",
+    weekend: "骑车去郊外，晚上找一家放爵士的小酒吧。",
+    values: ["感受力", "自由", "诚实"],
+    since: "2025"
+  },
+  {
+    id: "xu-qinghe",
+    no: "008",
+    image: "assets/images/profile-xuqinghe.jpg",
+    name: "许清和",
+    en: "Xu Qinghe",
+    age: 30,
+    city: "深圳",
+    hometown: "厦门",
+    job: "产品负责人",
+    company: "科技公司",
+    height: 166,
+    education: "中山大学 · 信息管理",
+    gender: "female",
+    intent: "以结婚为前提",
+    tags: ["潜水", "网球", "做饭", "阅读"],
+    featured: false,
+    quote: "希望我们既能聊很远的事，也能把一顿晚饭认真吃完。",
+    bio: "在科技公司做产品，日常和逻辑打交道，私下却很容易被小事打动。周末会去打球、逛菜市场，偶尔一个人去看海。",
+    ideal: "靠谱、温和、有行动力。我们可以各自忙碌，也可以一起浪费时间。",
+    weekend: "早起打球，下午买菜做饭，晚上读一本闲书。",
+    values: ["可靠", "温和", "行动力"],
+    since: "2024"
+  },
+  {
+    id: "gu-nanzhi",
+    no: "027",
+    image: "assets/images/profile-gunanzhi.jpg",
+    name: "顾南枝",
+    en: "Gu Nanzhi",
+    age: 33,
+    city: "成都",
+    hometown: "苏州",
+    job: "独立策展人",
+    company: "当代艺术空间",
+    height: 163,
+    education: "四川大学 · 艺术史",
+    gender: "female",
+    intent: "认真恋爱",
+    tags: ["艺术", "花园", "爵士", "烹饪"],
+    featured: false,
+    quote: "我不需要被理解全部，但我希望被认真地看见。",
+    bio: "做当代艺术策展，常年在布展、写稿和飞往不同城市之间切换。养了一阳台的植物，会为了一个展览在美术馆待到凌晨，也会为了朋友的一顿饭坐两小时地铁。",
+    ideal: "有自己的世界，也愿意邀请别人进来。情绪成熟比浪漫重要，浪漫也很重要。",
+    weekend: "逛花市，去朋友家吃饭，或者睡到自然醒。",
+    values: ["独立", "好奇心", "从容"],
+    since: "2022"
+  },
+  {
+    id: "su-nian",
+    no: "041",
+    image: "assets/images/profile-sunian.jpg",
+    name: "苏念",
+    en: "Su Nian",
+    age: 28,
+    city: "上海",
+    hometown: "南京",
+    job: "律师",
+    company: "商事律师事务所",
+    height: 167,
+    education: "华东政法大学 · 法学硕士",
+    gender: "female",
+    intent: "以结婚为前提",
+    tags: ["芭蕾", "阅读", "咖啡", "古典乐"],
+    featured: false,
+    quote: "保持清醒，也保留一点不设防的天真。",
+    bio: "做商事诉讼，工作和生活都习惯提前准备。但爱情大概不能完全计划，所以想试着把一部分自己交给偶然。学了很多年芭蕾，最近重新开始上课。",
+    ideal: "真诚、有边界感，能好好说话。我不需要被照顾，但希望被并肩对待。",
+    weekend: "上芭蕾课，看电影，或者在家研究一种新的咖啡豆。",
+    values: ["清醒", "边界", "成长"],
+    since: "2025"
+  },
+  {
+    id: "chen-yu",
+    no: "011",
+    image: "assets/images/profile-chenyu.jpg",
+    name: "陈屿",
+    en: "Chen Yu",
+    age: 32,
+    city: "上海",
+    hometown: "宁波",
+    job: "建筑师",
+    company: "城市更新事务所",
+    height: 182,
+    education: "东南大学 · 建筑学硕士",
+    gender: "male",
+    intent: "以结婚为前提",
+    tags: ["建筑", "摄影", "徒步", "黑胶"],
+    featured: true,
+    quote: "我想和你一起，把生活建造成一个可以安心回去的地方。",
+    bio: "做城市更新，喜欢老房子、木头和一切有使用痕迹的东西。家里有一面墙的唱片和一台修过很多次的相机。不太会说漂亮话，但记得住你随口提过的小事。",
+    ideal: "独立、松弛，有自己的光。我们可以不同，但要愿意彼此靠近。",
+    weekend: "去山里走路，回城后逛逛旧货市场。",
+    values: ["踏实", "审美", "长期"],
+    since: "2023"
+  },
+  {
+    id: "jiang-xu",
+    no: "019",
+    image: "assets/images/profile-jiangxu.jpg",
+    name: "江叙",
+    en: "Jiang Xu",
+    age: 30,
+    city: "北京",
+    hometown: "武汉",
+    job: "投资经理",
+    company: "早期基金",
+    height: 178,
+    education: "北京大学 · 金融学",
+    gender: "male",
+    intent: "认真恋爱",
+    tags: ["网球", "旅行", "威士忌", "写作"],
+    featured: true,
+    quote: "成年人最好的浪漫，是忙完一天之后，还愿意好好听对方讲话。",
+    bio: "看早期项目，日常在各种人和故事之间穿梭。工作之外喜欢打球、写字和去陌生的城市散步。看起来理性，其实很容易被真诚打动。",
+    ideal: "聪明但不锋利，有自己的节奏，愿意把脆弱留给值得的人。",
+    weekend: "上午网球，下午写点东西，晚上和朋友吃饭。",
+    values: ["理性", "真诚", "陪伴"],
+    since: "2024"
+  },
+  {
+    id: "lu-jianchuan",
+    no: "025",
+    image: "assets/images/profile-lujianchuan.jpg",
+    name: "陆见川",
+    en: "Lu Jianchuan",
+    age: 34,
+    city: "杭州",
+    hometown: "湖州",
+    job: "学术编辑 / 译者",
+    company: "独立出版机构",
+    height: 180,
+    education: "南京大学 · 比较文学",
+    gender: "male",
+    intent: "以结婚为前提",
+    tags: ["文学", "山野", "烹饪", "古典乐"],
+    featured: false,
+    quote: "我向往的关系，是两个人可以一起安静，也可以一起胡说八道。",
+    bio: "做学术出版和翻译，生活半径不大，但精神世界很开阔。会做几道拿手菜，喜欢在山里待着。相信缓慢、具体、持续的爱。",
+    ideal: "善良、有阅读习惯、对生活有耐心。我们可以一起把日子过得很慢。",
+    weekend: "去山里住一晚，回来路上买菜做饭。",
+    values: ["耐心", "温柔", "深度"],
+    since: "2022"
+  },
+  {
+    id: "he-yan",
+    no: "036",
+    image: "assets/images/profile-heyan.jpg",
+    name: "贺言",
+    en: "He Yan",
+    age: 29,
+    city: "深圳",
+    hometown: "长沙",
+    job: "硬件工程师",
+    company: "智能硬件公司",
+    height: 181,
+    education: "华中科技大学 · 电子工程",
+    gender: "male",
+    intent: "认真恋爱",
+    tags: ["潜水", "公路车", "摄影", "咖啡"],
+    featured: false,
+    quote: "喜欢一个人，就是想把看到的好东西都分享给她。",
+    bio: "做硬件研发，喜欢把复杂的东西拆开再装回去。周末常去海边潜水或骑公路车，晒得很黑但笑得很傻。正在练习做手冲，目前水平不稳定。",
+    ideal: "开朗、直接、愿意尝试新事物。希望我们是最好的朋友，也是恋人。",
+    weekend: "海边潜水，或者骑车去很远的地方吃一顿饭。",
+    values: ["热情", "好奇", "坦率"],
+    since: "2025"
+  },
+  {
+    id: "wen-yining",
+    no: "044",
+    image: "assets/images/profile-wenyining.jpg",
+    name: "温以宁",
+    en: "Wen Yining",
+    age: 31,
+    city: "成都",
+    hometown: "重庆",
+    job: "主厨",
+    company: "私房餐厅",
+    height: 176,
+    education: "四川旅游学院 · 烹饪工艺",
+    gender: "male",
+    intent: "以结婚为前提",
+    tags: ["烹饪", "陶艺", "市集", "旅行"],
+    featured: false,
+    quote: "认真吃饭，认真爱人，都是同一件事。",
+    bio: "经营一家只有八张桌子的私房餐厅，菜单随季节变化。喜欢逛凌晨的菜市场，也喜欢给朋友做饭。手上有茧，心里有很多柔软的地方。",
+    ideal: "懂得生活，不把付出当成理所当然。愿意一起逛菜市场就很加分。",
+    weekend: "逛市集，试新菜，或者关掉手机睡一整天。",
+    values: ["生活感", "慷慨", "踏实"],
+    since: "2023"
+  },
+  {
+    id: "cheng-ye",
+    no: "050",
+    image: "assets/images/profile-chengye.jpg",
+    name: "程野",
+    en: "Cheng Ye",
+    age: 28,
+    city: "广州",
+    hometown: "大理",
+    job: "独立音乐人",
+    company: "自由职业",
+    height: 179,
+    education: "星海音乐学院 · 作曲",
+    gender: "male",
+    intent: "认真恋爱",
+    tags: ["吉他", "电影", "露营", "咖啡"],
+    featured: false,
+    quote: "我想写一首只有我们听得懂的歌。",
+    bio: "做独立音乐，也接一些电影配乐。白天睡觉，晚上工作，生活不太规律，但对喜欢的事很认真。喜欢露营和旧电影，最近在学做手冲。",
+    ideal: "有自己热爱的事，能接受我的不规律，也愿意让我进入你的规律。",
+    weekend: "背着吉他去看海，或者在家看一整天电影。",
+    values: ["自由", "浪漫", "认真"],
+    since: "2025"
+  }
+];
+
+export const events = [
+  {
+    id: "spring-table",
+    kicker: "会员活动 · 上海",
+    title: "春日长桌",
+    subtitle: "一场没有寒暄的晚餐",
+    date: "2026.04.18",
+    day: "18",
+    month: "APR",
+    time: "18:30",
+    city: "上海",
+    location: "永嘉路 · 老洋房",
+    seats: 12,
+    image: "assets/images/event.jpg",
+    description: "十二个人，一张长桌，没有自我介绍模板。我们从一道菜、一本书、一段最近的旅行开始，把认识一个人还原成它本来的样子。",
+    note: "仅限已通过会籍审核的会员 · 含晚餐与酒"
+  },
+  {
+    id: "city-walk",
+    kicker: "城市漫游 · 杭州",
+    title: "沿着运河走",
+    subtitle: "在走路的时候，慢慢说话",
+    date: "2026.05.09",
+    day: "09",
+    month: "MAY",
+    time: "15:00",
+    city: "杭州",
+    location: "拱宸桥 · 运河边",
+    seats: 10,
+    image: "assets/images/manifesto.jpg",
+    description: "不设议程，不带名片。两个人一组，沿着运河走四十分钟，再交换一次同行的人。城市会成为最好的破冰话题。",
+    note: "轻量活动 · 含一杯手冲咖啡"
+  }
+];
+
+export const stories = [
+  {
+    quote: "我们都不是擅长恋爱的人。只是刚好都愿意，把每一次见面都当真。",
+    names: "Y. & L.",
+    meta: "2024 年结婚 · 相识于栖迟第 6 次引荐",
+    image: "assets/images/story.jpg"
+  },
+  {
+    quote: "以前觉得契合是相似，后来才发现，是愿意理解彼此的不同。",
+    names: "M. & J.",
+    meta: "2025 年订婚 · 相识于一场春日长桌",
+    image: "assets/images/manifesto.jpg"
+  },
+  {
+    quote: "我们没有一见钟情，但有无数个‘还好是你’的瞬间。",
+    names: "A. & C.",
+    meta: "2023 年结婚 · 现在养了一只叫年糕的猫",
+    image: "assets/images/hero-couple.jpg"
+  }
+];
+
+export const quizQuestions = [
+  {
+    id: "first-date",
+    q: "如果第一次见面由你安排，你更想要——",
+    options: [
+      { label: "一间安静的小酒馆，聊到打烊", sub: "给彼此足够的时间", type: "depth" },
+      { label: "逛一场展，再沿着街慢慢走", sub: "让话题自然发生", type: "explore" },
+      { label: "朋友的小聚，在人群里认识", sub: "轻松一点，不设剧本", type: "spark" }
+    ]
+  },
+  {
+    id: "value",
+    q: "一段关系里，你最不能妥协的是——",
+    options: [
+      { label: "坦诚，哪怕真话不那么好听", sub: "真实比完美重要", type: "depth" },
+      { label: "共同的成长方向", sub: "想去的未来要相似", type: "explore" },
+      { label: "在一起时的快乐", sub: "生活已经够累了", type: "spark" }
+    ]
+  },
+  {
+    id: "weekend",
+    q: "一个理想的周末，应该是——",
+    options: [
+      { label: "早起进山，天黑前回家", sub: "把身体交给自然", type: "explore" },
+      { label: "在家做饭，看一部老电影", sub: "把时间交给彼此", type: "depth" },
+      { label: "见朋友，去新的地方", sub: "把周末交给世界", type: "spark" }
+    ]
+  },
+  {
+    id: "pace",
+    q: "你期待关系以怎样的速度发生？",
+    options: [
+      { label: "慢一点，确认了再靠近", sub: "认真需要时间", type: "depth" },
+      { label: "顺其自然，边走边看", sub: "不必急着定义", type: "explore" },
+      { label: "感觉到了，就不想等", sub: "真诚要趁现在", type: "spark" }
+    ]
+  },
+  {
+    id: "future",
+    q: "关于未来三年，你更接近——",
+    options: [
+      { label: "想建立家庭，有具体的计划", sub: "婚姻是认真考虑过的方向", type: "depth" },
+      { label: "和喜欢的人一起探索可能", sub: "不预设标准答案", type: "explore" },
+      { label: "先过好当下，未来会到来", sub: "不想为了终点错过沿途", type: "spark" }
+    ]
+  }
+];
+
+export const quizResults = {
+  depth: {
+    type: "深海型",
+    en: "THE DEEP",
+    title: "你不是慢，你只是认真。",
+    description: "你需要的不是更热闹的相遇，而是更深的确认。你看重诚实、稳定和那些不必说出口的默契。对你来说，爱是把一个人慢慢放进自己的生活里。",
+    traits: ["深度交流", "长期主义", "稳定陪伴"],
+    recommended: ["lin-zhixia", "lu-jianchuan"]
+  },
+  explore: {
+    type: "远山型",
+    en: "THE WANDERER",
+    title: "你想找一个可以并肩看世界的人。",
+    description: "你被好奇心驱动，也需要一个尊重你节奏的伴侣。你不急着给关系贴标签，但很在意两个人是不是朝着相近的方向生长。最好的爱，是一起走远一点。",
+    traits: ["共同成长", "自由呼吸", "探索世界"],
+    recommended: ["chen-yu", "zhou-yuan"]
+  },
+  spark: {
+    type: "篝火型",
+    en: "THE SPARK",
+    title: "你相信心动，也愿意为它负责。",
+    description: "你直接、热烈，擅长把普通的日子点亮。你需要的是能接住你的热情、也愿意坦诚回应的人。对你来说，爱不是计划出来的，是在一次次真实的相处里长出来的。",
+    traits: ["热烈真诚", "生活感", "即时回应"],
+    recommended: ["wen-yining", "he-yan"]
+  }
+};
+
+export const currentUser = {
+  city: "上海",
+  age: 30,
+  interests: ["建筑", "摄影", "徒步", "阅读", "咖啡", "旅行"]
+};
