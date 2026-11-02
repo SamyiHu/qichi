@@ -15,7 +15,7 @@
   --paper-soft:#faf7f0;
   --ink:#1b1b18;
   --ink-soft:#4e4d46;
-  --muted:#7a776e;
+  --muted:#68655c;
   --line:rgba(27,27,24,.16);
   --line-strong:rgba(27,27,24,.32);
   --clay:#a74f38;
@@ -336,7 +336,7 @@ body.menu-open .mobile-menu{transform:translateY(0)}
 .manifesto-note .big-quote{font-family:var(--serif);font-size:70px;line-height:.6;color:var(--clay)}
 .manifesto-note p{font-family:var(--cn-serif);font-size:clamp(19px,2vw,27px);line-height:1.75;max-width:300px;letter-spacing:.01em}
 .manifesto-note .mini{padding-top:22px;border-top:1px solid var(--line);margin-top:30px}
-.manifesto-image{overflow:hidden;min-height:430px;position:relative}
+.manifesto-image{overflow:hidden;min-height:430px;position:relative;background:var(--paper-deep)}
 .manifesto-image img{width:100%;height:100%;object-fit:cover;filter:saturate(.78) contrast(1.04);transition:transform 1.4s var(--ease-out)}
 .manifesto-image:hover img{transform:scale(1.025)}
 .manifesto-image figcaption{
@@ -877,8 +877,10 @@ body.menu-open .mobile-menu{transform:translateY(0)}
 /* ---------- reveal ---------- */
 .reveal{opacity:0;transform:translateY(32px);transition:opacity 1s var(--ease-out),transform 1s var(--ease-out);transition-delay:var(--delay,0s)}
 .reveal.is-in{opacity:1;transform:none}
-.reveal-img{clip-path:inset(0 0 100% 0);transition:clip-path 1.3s var(--ease-out);transition-delay:var(--delay,0s)}
-.reveal-img.is-in{clip-path:inset(0 0 0 0)}
+.reveal-img{opacity:0;transform:translateY(18px);transition:opacity .85s var(--ease-out),transform 1s var(--ease-out);transition-delay:var(--delay,0s)}
+.reveal-img.is-in{opacity:1;transform:none}
+.reveal-img img{clip-path:inset(0 0 100% 0);transition:clip-path 1.25s var(--ease-out);transition-delay:var(--delay,0s)}
+.reveal-img.is-in img{clip-path:inset(0 0 0 0)}
 
 /* ---------- responsive ---------- */
 @media(max-width:1180px){
@@ -1113,6 +1115,7 @@ body.menu-open .mobile-menu{transform:translateY(0)}
 @media(prefers-reduced-motion:reduce){
   *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
   .reveal,.reveal-img{opacity:1;transform:none;clip-path:none}
+  .reveal-img img{clip-path:none}
 }
 
 /* ---------- late refinements ---------- */
