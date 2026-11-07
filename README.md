@@ -76,7 +76,9 @@ python -m http.server 4173
 │   ├── js/app.js
 │   ├── js/data.js
 │   ├── fonts/
-│   └── images/
+│   └── images/          # MOSS-Image 生成的演示影像
+├── scripts/
+│   └── moss_generate.py # 本地 MOSS 生成脚本
 ├── screenshots/
 ├── server.mjs
 ├── .github/workflows/deploy.yml
@@ -85,11 +87,12 @@ python -m http.server 4173
 
 ## 影像与字体
 
-摄影来自 [Unsplash](https://unsplash.com)，仅用于设计演示。字体许可如下：
+人物影像由本地 [MOSS-Image](https://github.com/OpenMOSS/MOSS-Image) 生成，仅用于设计演示；所有人物与档案均为虚构，不代表真实会员。具体生成参数见 [assets/images/GENERATED.md](assets/images/GENERATED.md)。字体许可如下：
 
 - **Noto Serif SC** — SIL Open Font License 1.1
 - **Cormorant Garamond** — SIL Open Font License 1.1
 - **Manrope** — SIL Open Font License 1.1
+- **MOSS-Image** — Apache License 2.0（本地推理，未重新下载模型）
 
 ## License
 

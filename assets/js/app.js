@@ -179,7 +179,7 @@ function homeTemplate() {
   const marquee = marqueeItems.map((item) => `<span class="marquee-item">${item}</span>`).join("");
   const storySlides = stories.map((story, index) => `
     <div class="story-image ${index === 0 ? "active" : ""}" data-story-image="${index}">
-      <img src="${story.image}" alt="栖迟会员故事" loading="lazy">
+      <img src="${story.image}" alt="一对中国伴侣的婚礼纪实肖像" loading="lazy">
     </div>
   `).join("");
   const event = events[0];
@@ -206,15 +206,15 @@ function homeTemplate() {
                 <span><img src="${profiles[6].image}" alt="" loading="lazy"></span>
                 <span><img src="${profiles[1].image}" alt="" loading="lazy"></span>
               </div>
-              <p><strong>1,284 位认真会员</strong><span>他们都在寻找一段可以慢慢发生的关系</span></p>
+              <p><strong>12 位示例会员</strong><span>AI 生成的虚构档案 · 非真实会员</span></p>
             </div>
           </div>
           <div class="hero-visual">
             <figure class="hero-photo">
-              <img src="assets/images/hero-couple.jpg" alt="一对在自然光下相拥的伴侣" fetchpriority="high">
+              <img src="assets/images/hero-couple.jpg" alt="一对中国伴侣在自然光下的亲密肖像" fetchpriority="high">
               <figcaption class="hero-photo-cap"><span>Shanghai · Spring 2026</span><span>a quiet beginning</span></figcaption>
             </figure>
-            <figure class="hero-small"><img src="assets/images/small-portrait.jpg" alt="栖迟会员肖像" loading="lazy"></figure>
+            <figure class="hero-small"><img src="assets/images/small-portrait.jpg" alt="一位中国会员的肖像" loading="lazy"></figure>
             <div class="hero-quote">我们不制造心动，<br>只让相遇更接近真实。</div>
             <div class="hero-seal"><span class="seal-cn">认真</span><span class="seal-en">QICHI · EST. 2019</span></div>
           </div>
@@ -250,7 +250,7 @@ function homeTemplate() {
             <span class="mini">A NOTE FROM QICHI</span>
           </div>
           <figure class="manifesto-image reveal-img">
-            <img src="assets/images/manifesto.jpg" alt="一对伴侣在自然光下相拥" loading="eager">
+            <img src="assets/images/manifesto.jpg" alt="一对中国伴侣在窗边交谈" loading="eager">
             <figcaption><span>Real connection, not performance</span><span>QICHI / 2026</span></figcaption>
           </figure>
         </div>
@@ -261,7 +261,7 @@ function homeTemplate() {
       <div class="wrap">
         <div class="section-label">
           <span class="label-left"><span class="label-no">02</span> 本周引荐</span>
-          <span class="label-right">THE CIRCLE · 12 MEMBERS</span>
+          <span class="label-right">THE CIRCLE · DEMO 12</span>
         </div>
         <div class="section-title-row">
           <h2 class="section-title">值得认识的人，<br>不必很多。</h2>
@@ -373,7 +373,7 @@ function homeTemplate() {
     </section>
 
     <section class="cta">
-      <div class="cta-bg"><img src="assets/images/cta-couple.jpg" alt="黄昏中的一对伴侣" loading="lazy"></div>
+      <div class="cta-bg"><img src="assets/images/cta-couple.jpg" alt="黄昏中相拥的中国伴侣" loading="lazy"></div>
       <div class="cta-content">
         <span class="eyebrow">MEMBERSHIP · 每月开放 20 个申请名额</span>
         <h2>下一次相遇，<br>从你<em>愿意开始。</em></h2>
@@ -406,15 +406,16 @@ function discoverTemplate() {
       <div class="wrap">
         <div class="section-label">
           <span class="label-left"><span class="label-no">02</span> 会员名录</span>
-          <span class="label-right">THE CIRCLE · VOL. 07</span>
+          <span class="label-right">THE CIRCLE · DEMO</span>
         </div>
         <div class="page-hero-grid">
           <div><h1>人海之中，<br><span class="accent">先认识这些人。</span></h1></div>
           <div class="page-hero-aside">
-            <p>每一期，我们只呈现一小部分通过审核的会员。照片、职业与故事都来自真实的深度访谈。你可以慢慢看，也可以先做一次契合度测试。</p>
+            <p>每一期，我们只呈现一小部分示例档案。照片、职业与故事均为演示内容，你可以慢慢看，也可以先做一次契合度测试。</p>
+            <p class="demo-note">DEMO · 人物影像由本地 MOSS-Image 生成，非真实会员</p>
             <div class="page-hero-meta">
               <div><strong>${profiles.length}</strong><span>本期会员</span></div>
-              <div><strong>17</strong><span>覆盖城市</span></div>
+              <div><strong>6</strong><span>覆盖城市</span></div>
               <div><strong>90<span style="font-size:13px">min</span></strong><span>每位访谈</span></div>
             </div>
             <div class="page-collage">
@@ -541,7 +542,7 @@ function membershipTemplate() {
             </div>
             <h1>不是注册，<br><span class="accent">是一次相互选择。</span></h1>
             <p class="lead">我们每个月只接受有限数量的申请。不是为了制造稀缺，而是为了确保每一段被介绍的关系，都经过足够的理解与准备。</p>
-            <span class="membership-badge"><span></span> 本月剩余 7 个申请名额</span>
+            <span class="membership-badge"><span></span> 会籍申请制 · 演示流程</span>
           </div>
           <div class="membership-visual">
             <div class="membership-image"><img src="assets/images/hero-couple.jpg" alt="一对在自然中相拥的伴侣" loading="eager"></div>
