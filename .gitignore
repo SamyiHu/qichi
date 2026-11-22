@@ -1,0 +1,11 @@
+.tmp-edge*
+.local/
+tmp-check.mjs
+screenshots/*-test.png
+.DS_Store
+node_modules/
+_site/
+screenshots/debug-*
+
+miniapp/
+PROGRESS.md
